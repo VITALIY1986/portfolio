@@ -11,6 +11,7 @@ export default function Index() {
       <Head>
         <title>{meta.title}</title>
         <meta name="google" content="notranslate"></meta>
+        <meta property="og:image" content='https://lux-texcv.com.ua/wp-content/uploads/2021/04/362.jpg' key="ogimage" />
       </Head>
       <div className="p-6 lg:p-20 max-w-4xl m-auto w-full">
         <Hero />

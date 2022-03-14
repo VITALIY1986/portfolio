@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
           />
           <link rel="manifest" href="/static/favicon/site.webmanifest" />
         </Head>
-        <body>
+        <body className="notranslate">
           <Main />
           <NextScript />
         </body>
