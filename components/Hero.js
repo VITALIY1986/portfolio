@@ -28,7 +28,7 @@ export default function Hero() {
           />
         </div>
         </div>
-        <AnimatedGradientText>Hi, I'm Vitaliy Statkevich</AnimatedGradientText>
+        <AnimatedGradientText>{hero.title}</AnimatedGradientText>
       <p className="text-lg mt-3 text-center">{hero.desc}</p>
     </div>
   );
