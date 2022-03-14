@@ -19,25 +19,9 @@ export default function Projects() {
             >
               <h3>{item.title}</h3>
               <p>{item.description}</p>
+              <a href={item.link}> <button className="mt-3 px-4 py-1 text-sm text-indigo-300 font-semibold rounded-full border border-indigo-300 hover:text-white hover:bg-indigo-300 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">view more</button></a>
               <div className="flex items-center flex-wrap -m-3 pt-5">
-                {item.link && (
-                  <a
-                    href={item.link}
-                    className="flex items-center  py-1 px-3"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Image
-                      src="/static/icons/link.svg"
-                      width={18}
-                      height={18}
-                      alt="Link icon"
-                    />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
-                      {item.link}
-                    </span>
-                  </a>
-                )}
+               
                 {item.github && (
                   <a
                     href={`https://github.com/${item.github}`}

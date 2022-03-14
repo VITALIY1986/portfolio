@@ -21,8 +21,9 @@ export default function Index() {
         <Stack />
           <Projects />
           <StackDesigner />
-          <Contact />
+         
           <ProjectsDesigner />
+          <Contact />
         </div>
       </div>
     </>
