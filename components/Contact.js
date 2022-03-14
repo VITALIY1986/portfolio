@@ -12,7 +12,7 @@ export default function Stack() {
       <p>
         Shoot me an email:{' '}
         <a
-          className="dark:text-white text-black transition-colors duration-500"
+          className="dark:text-black text-white transition-colors duration-500"
           href={`mailto:${contact.email}`}
         >
           {contact.email}
@@ -21,7 +21,7 @@ export default function Stack() {
       <p>
         Phone:{' '}
         <a
-          className="dark:text-white text-black transition-colors duration-500"
+          className="dark:text-black text-white transition-colors duration-500"
           href={`mailto:${contact.phone}`}
         >
           {contact.phone}
