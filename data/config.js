@@ -1,6 +1,6 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
+  title: 'Vitaly Statkevich',
+  description: 'I,m a web developer and designer building things people love.'
 }
 
 export const hero = {
@@ -13,23 +13,30 @@ export const projects = {
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
-      github: ''
+      title: '4Prof',
+      description: 'Contao CMS',
+      link: 'https://www.norel.com.ua/',
+     
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
+      title: '4Prof',
+      description: 'Next.js + WordPress',
+      link: 'https://www.4prof.com.ua/',
+     
     },
     {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
-    }
+      title: 'Trifecta Med Spa',
+      description: 'Next.js + Contentful',
+      link: 'https://trifectamedspanyc.com/',
+     
+    },
+    {
+      title: 'Trifecta Health',
+      description: 'Next.js + Contentful',
+      link: 'https://trifectahealthnyc.com/',
+     
+    },
+   
   ]
 };
 
@@ -38,20 +45,25 @@ export const stack = {
   stack: [
     'HTML',
     'CSS',
-    'JavaScript',
-    'Typescript',
-    'React',
-    'NextJS',
+    'SCSS',
+    'Bootstrap',
     'TailwindCSS',
-    'Firebase',
+    'JavaScript',
+    'React',
+    'Gatsby.js',
+    'Next.JS',
+    'GraphQL',
+    'PHP',
+    'WordPress CMS',
+    'Contao CMS',
+    'Visual Studio Code',
     'Git'
   ]
 };
 
 export const contact = {
   title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  email: 'staslego1986@gmail.com',
+  phone: '+40732994556',
+  
 };
