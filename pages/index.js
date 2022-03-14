@@ -10,6 +10,7 @@ export default function Index() {
     <>
       <Head>
         <title>{meta.title}</title>
+        <meta name="google" content="notranslate"></meta>
       </Head>
       <div className="p-6 lg:p-20 max-w-4xl m-auto w-full">
         <Hero />
