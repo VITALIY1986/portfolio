@@ -2,7 +2,9 @@ import Contact from '@/components/Contact';
 import Head from 'next/head'
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
+import ProjectsDesigner from '@/components/ProjectsDesigner';
 import Stack from '@/components/Stack';
+import StackDesigner from '@/components/StackDesigner';
 import { meta } from '@/data/config';
 
 export default function Index() {
@@ -18,8 +20,9 @@ export default function Index() {
         <div className="p-0 space-y-10">
         <Stack />
           <Projects />
-         
+          <StackDesigner />
           <Contact />
+          <ProjectsDesigner />
         </div>
       </div>
     </>

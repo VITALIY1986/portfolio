@@ -39,6 +39,38 @@ export const projects = {
    
   ]
 };
+export const projectsdesign = {
+  title: 'My projects design',
+  desc: "Here are some of my favorite projects design that I've worked on.",
+  projects: [
+    {
+      title: 'Caviar in NYC',
+      description: 'Figma',
+      link: 'https://www.figma.com/proto/qclUm6ZDb1naq2Q7J6Cc5l/caviar-product?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2',
+     
+    },
+    {
+      title: 'INSTAGRAM -- 𝙎𝙀𝙋𝙏𝙀𝙈𝘽𝙀𝙍 🍂 𝙎𝙋𝙀𝘾𝙄𝘼𝙇𝙎⠀',
+      description: 'Adobe Photoshop + Adobe After Effects',
+      link: 'https://www.instagram.com/p/CE4vKtJFaP9/',
+     
+    },
+    {
+      title: 'INSTAGRAM',
+      description: 'Adobe Photoshop + Adobe After Effects',
+      link: 'https://www.instagram.com/p/BqfxXWfBzfJ/',
+     
+    },
+    {
+      title: 'INSTAGRAM',
+      description: 'Adobe After Effects + Adobe Premiere Pro',
+      link: 'https://www.instagram.com/p/COOH8S3tIk7/',
+     
+    },
+   
+  ]
+};
+
 
 export const stack = {
   title: 'My Stack',
@@ -58,6 +90,16 @@ export const stack = {
     'Contao CMS',
     'Visual Studio Code',
     'Git'
+  ]
+};
+export const stackdesign = {
+  title: 'My stack of programs for design',
+  stack: [
+    'Adobe Photoshop',
+    'Adobe After Effects',
+    'Adobe Premiere Pro',
+    'Figma',
+  
   ]
 };
 
