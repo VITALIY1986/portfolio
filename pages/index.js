@@ -11,7 +11,7 @@ export default function Index() {
       <Head>
         <title>{meta.title}</title>
         <meta name="google" content="notranslate"></meta>
-        <meta property="og:image" content='/static/favicon/apple-touch-icon.png' key="ogimage" />
+        <meta property="og:image" content='/static/favicon/portf.png' key="ogimage" />
       </Head>
       <div className="p-6 lg:p-20 max-w-4xl m-auto w-full">
         <Hero />

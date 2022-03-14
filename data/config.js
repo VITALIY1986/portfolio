@@ -1,10 +1,10 @@
 export const meta = {
-  title: 'Vitaly Statkevich',
+  title: 'Vitaliy Statkevich',
   description: 'I,m a web developer and designer building things people love.'
 }
 
 export const hero = {
-  title: "Vitaly Statkevich",
+  title: "Vitaliy Statkevich",
   desc: "I'm a web developer and designer building things people love."
 };
 
