@@ -27,7 +27,7 @@ export default function Index() {
          
           <ProjectsDesigner />
           <Contact />
-          <WhatsAppWidget phoneNumber='+380505908978'
+          <WhatsAppWidget phoneNumber='+40732994556'
           sendButton="Send"
          />
         </div>
