@@ -1,9 +1,12 @@
+import React from "react";
+
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
 import Contact from '@/components/Contact';
 import Head from 'next/head'
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
-import WhatsAppWidget from "react-whatsapp-chat-widget";
-import "react-whatsapp-chat-widget/index.css";
+
 import ProjectsDesigner from '@/components/ProjectsDesigner';
 import Stack from '@/components/Stack';
 import StackDesigner from '@/components/StackDesigner';
