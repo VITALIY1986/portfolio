@@ -2,10 +2,13 @@ import Contact from '@/components/Contact';
 import Head from 'next/head'
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
 import ProjectsDesigner from '@/components/ProjectsDesigner';
 import Stack from '@/components/Stack';
 import StackDesigner from '@/components/StackDesigner';
 import { meta } from '@/data/config';
+
 
 export default function Index() {
   return (
@@ -24,6 +27,9 @@ export default function Index() {
          
           <ProjectsDesigner />
           <Contact />
+          <WhatsAppWidget phoneNumber='+380505908978'
+          sendButton="Send"
+         />
         </div>
       </div>
     </>
