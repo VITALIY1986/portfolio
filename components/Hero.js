@@ -15,7 +15,7 @@ export default function Hero() {
         height={30}
         alt="Toggle theme"
         className="cursor-pointer toggleTheme"
-        onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+        onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       />
     </div>
     <div className='flex justify-center mb-6'>
