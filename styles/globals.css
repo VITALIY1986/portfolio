@@ -26,7 +26,7 @@ body {
   font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
-  @apply dark:bg-white bg-black text-lightText  transition-colors duration-500;
+  @apply dark:bg-white bg-changeColor text-lightText  transition-colors duration-500;
   line-height: 1.8rem;
 }
 
@@ -72,3 +72,12 @@ ul {
   width: 100vw;
   @apply bg-lightText;
 }
+
+.content{
+  animation: show 2s;
+ 
+}
+@keyframes show {
+
+  from {opacity: 0;} to {opacity: 1;}
+  }

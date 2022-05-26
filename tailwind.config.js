@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         dark: '#000',
         white: '#fff',
-        lightText: '#76797d'
+        lightText: '#76797d',
+        changeColor:'#14173a'
       }
     }
   },
