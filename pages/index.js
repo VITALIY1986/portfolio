@@ -6,7 +6,7 @@ import ProjectsDesigner from '@/components/ProjectsDesigner';
 import Stack from '@/components/Stack';
 import StackDesigner from '@/components/StackDesigner';
 import { meta } from '@/data/config';
-//qqqqq
+//qqqqqaaaaaaaaaaa
 export default function Index() {
   return (
     <>
